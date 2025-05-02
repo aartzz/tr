@@ -31,19 +31,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${data.mainImage}" alt="${data.title}" style="max-width: 100%; border-radius: 5px; margin-bottom: 15px;">
                 <p>${data.description}</p>
                 ${data.screenshots ? `
-                    <h3>Скріншоти</h3>
+                    <h3>Screenshots</h3>
                     <div class="screenshot-container">
                         ${data.screenshots.map(screenshot => `<img src="${screenshot}" alt="Скріншот" class="screenshot">`).join('')}
                     </div>
                 ` : ''}
                 ${data.youtubeVideoId ? `
-                    <h3>Відео</h3>
+                    <h3>Videos</h3>
                     <div class="youtube-video">
                         <iframe src="https://www.youtube.com/embed/${data.youtubeVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 ` : ''}
                 ${data.downloads && data.downloads.length > 0 ? `
-                    <h3>Завантаження</h3>
+                    <h3>Downloads</h3>
                     <ul>
                         ${data.downloads.map(download => `
                             <li>
