@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 ` : ''}
                 ${data.youtubeVideos && data.youtubeVideos.length > 0 ? `
-                    <h3>Відео</h3>
+                    <h3>Video</h3>
                     <div class="youtube-videos-container">
                         ${data.youtubeVideos.map(videoId => `
                             <div class="youtube-video">
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 ` : ''}
                 ${data.downloads && data.downloads.length > 0 ? `
-                    <h3>Завантаження</h3>
+                    <h3>Downloads</h3>
                     <ul>
                         ${data.downloads.map(download => `
                             <li>
