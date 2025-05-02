@@ -4,7 +4,9 @@
     "description": "Trident: Terraria - private Terraria-server by Lostya.",
     "screenshots": [
     ],
-    "youtubeVideoId": "cQhzbrEUX70",
+    "youtubeVideos": [
+        "cQhzbrEUX70"
+    ],
     "downloads": [
         {
             "filename": "trident_terraria.zip",

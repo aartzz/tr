@@ -5,7 +5,12 @@
     "screenshots": [
         "images/Screenshot_20250502_204400.png"
     ],
-    "youtubeVideoId": "eTSy2V89JxQ",
+    "youtubeVideos": [
+        "eTSy2V89JxQ",
+        "7tDvUXQfM9A",
+        "MpjNcMuU4rY",
+        "URQWW3dl3HU"
+    ],
     "downloads": [
         {
             "filename": "trident_hc2.zip",

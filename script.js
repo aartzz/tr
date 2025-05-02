@@ -36,10 +36,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         ${data.screenshots.map(screenshot => `<img src="${screenshot}" alt="Скріншот" class="screenshot">`).join('')}
                     </div>
                 ` : ''}
-                ${data.youtubeVideoId ? `
-                    <h3>Videos</h3>
-                    <div class="youtube-video">
-                        <iframe src="https://www.youtube.com/embed/${data.youtubeVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                ${data.youtubeVideos && data.youtubeVideos.length > 0 ? `
+                    <h3>Відео</h3>
+                    <div class="youtube-videos-container">
+                        ${data.youtubeVideos.map(videoId => `
+                            <div class="youtube-video">
+                                <iframe src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        `).join('')}
                     </div>
                 ` : ''}
                 ${data.downloads && data.downloads.length > 0 ? `

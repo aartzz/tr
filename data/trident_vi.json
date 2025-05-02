@@ -5,7 +5,9 @@
     "screenshots": [
         "images/tr6.png"
     ],
-    "youtubeVideoId": "sPmNX9s9rms",
+    "youtubeVideos": [
+        "sPmNX9s9rms"
+    ],
     "downloads": [
         {
             "filename": "trident6.zip",

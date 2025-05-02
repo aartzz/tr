@@ -1,10 +1,11 @@
 {
     "title": "Trident V",
     "mainImage": "images/trident_v.png",
-    "description": "Trident VI is the 5th season of the Lostya private server.",
+    "description": "Trident VI is the 5th season of the Lostya private server and the laggest season in Trident history.",
     "screenshots": [
     ],
-    "youtubeVideoId": "",
+    "youtubeVideos": [
+    ],
     "downloads": [
         {
             "filename": "trident5.zip",
