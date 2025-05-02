@@ -43,12 +43,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 ` : ''}
                 ${data.downloads && data.downloads.length > 0 ? `
-                    <h3>Downloads</h3>
+                    <h3>Завантаження</h3>
                     <ul>
                         ${data.downloads.map(download => `
                             <li>
                                 <img src="images/icons/${download.platform.toLowerCase().replace(/ /g, '_')}.png" alt="${download.platform}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;">
                                 <a href="${download.link}" target="_blank">${download.filename}</a> (${download.size})
+                                ${download.notes ? `[<span class="download-notes">${download.notes}</span>]` : ''}
                             </li>
                         `).join('')}
                     </ul>

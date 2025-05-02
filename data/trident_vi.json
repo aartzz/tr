@@ -1,5 +1,5 @@
 {
-    "title": "Trident VI [Leak by aartzz]",
+    "title": "Trident VI",
     "mainImage": "images/trident_vi.png",
     "description": "Trident VI is season 6 of the Lostya private server.",
     "screenshots": [
@@ -11,7 +11,8 @@
             "filename": "trident6.zip",
             "size": "7 GB",
             "link": "https://mega.nz/file/wUZklKpL#6bROZ2xZReeTmev5owsDVx4yCpvqfeNFjVOGno0vyUM",
-            "platform": "mega"
+            "platform": "mega",
+            "notes": "by aartzz"
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "title": "Trident: Hardcore [Leak by aartzz]",
+    "title": "Trident: Hardcore",
     "mainImage": "images/trident_hardcore.png",
     "description": "Trident: Hardcore is a private server of the player Lostya, but in hardcore mode.",
     "screenshots": [
@@ -8,10 +8,18 @@
     "youtubeVideoId": "eTSy2V89JxQ",
     "downloads": [
         {
+            "filename": "trident_hc2.zip",
+            "size": "895 MB",
+            "link": "http://lostyawolfer.com/dl/artzabaz/trident_hc2.zip",
+            "platform": "lh",
+            "notes": "hosted by Lostya XD"
+        },
+        {
             "filename": "trident_hc3.zip",
             "size": "2.7 GB",
             "link": "https://mega.nz/file/cdpinaiD#lrl8z5hjMnsE0E86QKFQZsbsmM1nc3ZWzoekGZCVWhs",
-            "platform": "mega"
+            "platform": "mega",
+            "notes": "by aartzz"
         }
     ]
 }

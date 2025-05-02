@@ -1,16 +1,17 @@
 {
-    "title": "Trident: Terraria [Leak by aartzz]",
+    "title": "Trident: Terraria",
     "mainImage": "images/trident_terraria.png",
-    "description": "Trident: Terraria - приватний Terraria-сервер Lostya.",
+    "description": "Trident: Terraria - private Terraria-server by Lostya.",
     "screenshots": [
     ],
     "youtubeVideoId": "cQhzbrEUX70",
     "downloads": [
         {
-            "filename": "trident5.zip",
-            "size": "4.7 GB",
+            "filename": "trident_terraria.zip",
+            "size": "",
             "link": "https://mega.nz",
-            "platform": "mega"
+            "platform": "mega",
+            "notes": ""
         }
     ]
 }
