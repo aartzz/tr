@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Trident V",
+        "image": "images/trident_v.png",
+        "dataFile": "data/trident_v.json"
+    },
+    {
+        "name": "Trident VI",
+        "image": "images/trident_vi.png",
+        "dataFile": "data/trident_vi.json"
+    },
+    {
+        "name": "Trident: Hardcore",
+        "image": "images/trident_hardcore.png",
+        "dataFile": "data/trident_hardcore_iii.json"
+    }
+]

@@ -1,0 +1,149 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #00ffcc; /* Футуристичний колір */
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+#main-page {
+    text-align: center;
+}
+
+#button-container {
+    display: flex; /* Залишаємо flex для можливості центрування */
+    flex-direction: column; /* Розміщуємо елементи вертикально */
+    gap: 10px; /* Зменшуємо відстань між кнопками */
+    align-items: center; /* Центруємо кнопки по горизонталі */
+}
+
+.project-button {
+    /* Видаляємо фіксовані розміри */
+    /* width: 150px; */
+    /* height: 150px; */
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: block; /* Щоб кнопка займала всю доступну ширину контейнера (якщо потрібно) */
+    max-width: 300px; /* Задайте максимальну ширину, якщо необхідно */
+    width: 100%; /* Або використовуйте auto, якщо max-width не задано */
+    height: auto; /* Висота буде визначатися висотою зображення */
+}
+
+.project-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 255, 204, 0.5);
+}
+
+.project-button img {
+    width: 100%;
+    height: auto; /* Зберігаємо пропорції зображення */
+    display: block; /* Усуваємо можливі відступи під зображенням */
+    object-fit: contain; /* Або cover, залежно від бажаного ефекту */
+}
+
+#project-page {
+    text-align: left;
+}
+
+#project-content {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#project-content h2 {
+    color: #00ffcc;
+    margin-top: 0;
+}
+
+#project-content p {
+    line-height: 1.6;
+}
+
+.screenshot-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    overflow-x: auto;
+}
+
+.screenshot {
+    max-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-video {
+    margin-top: 15px;
+}
+
+.youtube-video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px rgba(0, 255, 204, 0.4);
+}
+
+#back-button {
+    background-color: #333;
+    color: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+#back-button:hover {
+    background-color: #555;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: #222;
+    color: #888;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
