@@ -10,6 +10,11 @@
         "dataFile": "data/trident_vi.json"
     },
     {
+        "name": "Trident VII",
+        "image": "images/trident_vii.png",
+        "dataFile": "data/trident_vii.json"
+    },
+    {
         "name": "Trident: Hardcore",
         "image": "images/trident_hardcore.png",
         "dataFile": "data/trident_hardcore_iii.json"
