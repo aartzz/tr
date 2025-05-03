@@ -23,5 +23,10 @@
         "name": "Trident: Hardcore",
         "image": "images/trident_hardcore.png",
         "dataFile": "data/trident_hardcore_iii.json"
+    },
+    {
+        "name": "Trident: Terraria",
+        "image": "images/trident_terraria.png",
+        "dataFile": "data/trident_terraria.json"
     }
 ]
