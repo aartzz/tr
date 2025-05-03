@@ -9,11 +9,18 @@
     ],
     "downloads": [
         {
-            "filename": "trident_terraria.zip",
-            "size": "",
-            "link": "https://mega.nz",
+            "filename": "tr-terr_17.11.2022.zip",
+            "size": "47 MB",
+            "link": "http://lostyawolfer.com/dl/artzabaz/tr-terr_17.11.2022.zip",
+            "platform": "lh",
+            "notes": "by aartzz"
+        },
+        {
+            "filename": "tr-terr_29.05.2023.zip",
+            "size": "36 MB",
+            "link": "https://mega.nz/file/9p1jlAzY#B3wARwXpQUGh5mCSHFwmdaTIz8rUOqqAmJu0rw6ZEGg",
             "platform": "mega",
-            "notes": ""
+            "notes": "by aartzz"
         }
     ]
 }
