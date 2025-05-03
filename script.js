@@ -83,6 +83,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    async function fetchLatestCommit() {
+        try {
+            const response = await fetch('https://api.github.com/repos/aartzz/tr/commits');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            if (Array.isArray(data) && data.length > 0) {
+                const latestCommit = data[0].commit;
+                const commitDateUTC = new Date(latestCommit.author.date);
+                const localDate = commitDateUTC.toLocaleString(); // Локальна дата користувача
+                const message = latestCommit.message;
+                const element = document.getElementById('commit-info');
+                element.textContent = `${localDate} || ${message}`;
+            } else {
+                document.getElementById('commit-info').textContent = 'Немає комітів.';
+            }
+        } catch (error) {
+            console.error('Помилка при завантаженні комітів:', error);
+            document.getElementById('commit-info').textContent = 'Не вдалося завантажити оновлення.';
+        }
+    }
+    
+    fetchLatestCommit();
+
     initializeButtons();
 
     backButton.addEventListener('click', () => {
