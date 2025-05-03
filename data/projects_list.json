@@ -1,5 +1,10 @@
 [
     {
+        "name": "Trident IV",
+        "image": "images/trident_iv.png",
+        "dataFile": "data/trident_iv.json"
+    },
+    {
         "name": "Trident V",
         "image": "images/trident_v.png",
         "dataFile": "data/trident_v.json"
