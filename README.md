@@ -1,6 +1,14 @@
-<div>
-<img src="4readme.png">
-</div>
+# Trident Archive
+This is a unofficial archive of Trident servers. If you find any archives linked to the Trident server, [create an issue](https://github.com/aartzz/tr/issues).
+## Contents of the archive
+* Trident IV
+* Trident V
+* Trident VI
+* Trident VII
+* Trident IX
+* Trident: Test Realm
+* Tridnet: Hardcore
+* Trident: Terraria
 
-# trident archive leak 2026 no virus
-https://aartzz.github.io/tr
+## Link to the archive
+* https://aartzz.github.io/tr
