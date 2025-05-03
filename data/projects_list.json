@@ -15,6 +15,11 @@
         "dataFile": "data/trident_vii.json"
     },
     {
+        "name": "Trident IX",
+        "image": "images/trident_ix.png",
+        "dataFile": "data/trident_ix.json"
+    },
+    {
         "name": "Trident: Test Realm",
         "image": "images/trident_tr.png",
         "dataFile": "data/trident_tr.json"

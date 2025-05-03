@@ -1,0 +1,24 @@
+{
+    "title": "Trident IX",
+    "mainImage": "images/trident_ix.png",
+    "description": "Trident IX is season 9 of the Lostya private server.",
+    "screenshots": [
+        "images/pituh.png",
+        "images/wolter.png",
+        "images/9base.png",
+        "images/9base2.png",
+        "images/Screenshot_24.png"
+    ],
+    "youtubeVideos": [
+        "GIqJ1NuP06c"
+    ],
+    "downloads": [
+        {
+            "filename": "trident9_13.04.2025.zip",
+            "size": "11.1 GB",
+            "link": "http://cdn.lostyawolfer.com/archive/trident9_13.04.2025.zip",
+            "platform": "lh",
+            "notes": "by aartzz"
+        }
+    ]
+}
