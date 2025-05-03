@@ -1,0 +1,26 @@
+{
+    "title": "Trident: Test Realm",
+    "mainImage": "images/trident_tr.png",
+    "description": "Trident: Test Realm is the creative version of the Lostya private server.",
+    "screenshots": [
+    ],
+    "youtubeVideos": [
+        "a1eFBNSPHHY"
+    ],
+    "downloads": [
+        {
+            "filename": "tr-tr_29.06.2023.zip",
+            "size": "522 MB",
+            "link": "https://mega.nz/file/B0dCAK7Q#yEex5a4DiJQezW7biOz91nc2HkC0SAjKcOdyYT0eetQ",
+            "platform": "mega",
+            "notes": "by aartzz"
+        },
+        {
+            "filename": "trident_tr-06.06.2024.zip",
+            "size": "331 MB",
+            "link": "http://lostyawolfer.com/dl/artzabaz/trident_tr-06.06.2024.zip",
+            "platform": "lh",
+            "notes": "by aartzz"
+        }
+    ]
+}
