@@ -33,7 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${data.screenshots ? `
                     <h3>Screenshots</h3>
                     <div class="screenshot-container">
-                        ${data.screenshots.map(screenshot => `<img src="${screenshot}" alt="Скріншот" class="screenshot">`).join('')}
+                        ${data.screenshots.map(screenshot => `
+                            <a href="${screenshot}" target="_blank" rel="noopener noreferrer">
+                                <img src="${screenshot}" alt="Скріншот" class="screenshot">
+                            </a>
+                        `).join('')}
                     </div>
                 ` : ''}
                 ${data.youtubeVideos && data.youtubeVideos.length > 0 ? `
