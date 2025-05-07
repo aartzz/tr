@@ -9,6 +9,3 @@ This is a unofficial archive of Trident servers. If you find any archives linked
 * Trident: Test Realm
 * Tridnet: Hardcore
 * Trident: Terraria
-
-## Link to the archive
-* https://aartzz.github.io/tr
