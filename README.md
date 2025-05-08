@@ -6,6 +6,7 @@ This is a unofficial archive of Trident servers. If you find any archives linked
 * Trident VI
 * Trident VII
 * Trident IX
+* Trident X
 * Trident: Test Realm
 * Tridnet: Hardcore
 * Trident: Terraria
