@@ -3,11 +3,11 @@
     "mainImage": "images/trident_ix2.png",
     "description": "Trident IX is season 9 of the Lostya private server.",
     "screenshots": [
-        "images/pituh.png",
-        "images/wolter.png",
-        "images/9base.png",
-        "images/9base2.png",
-        "images/Screenshot_24.png"
+        "images/screenshots/pituh.png",
+        "images/screenshots/wolter.png",
+        "images/screenshots/9base.png",
+        "images/screenshots/9base2.png",
+        "images/screenshots/Screenshot_24.png"
     ],
     "youtubeVideos": [
         "GIqJ1NuP06c"

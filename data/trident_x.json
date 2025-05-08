@@ -1,0 +1,25 @@
+{
+    "title": "Trident X",
+    "mainImage": "images/trident_x2.png",
+    "description": "Trident X is season 10 of the Lostya private server.",
+    "screenshots": [
+        "images/screenshots/CP-oBYmcDiw 00-00-13 trident X trailer.png",
+        "images/screenshots/CP-oBYmcDiw 00-00-19 trident X trailer.png",
+        "images/screenshots/CP-oBYmcDiw 00-00-21 trident X trailer(1).png",
+        "images/screenshots/CP-oBYmcDiw 00-00-21 trident X trailer.png",
+        "images/screenshots/CP-oBYmcDiw 00-00-24 trident X trailer.png",
+        "images/screenshots/CP-oBYmcDiw 00-00-36 trident X trailer.png"
+    ],
+    "youtubeVideos": [
+        "CP-oBYmcDiw"
+    ],
+    "downloads": [
+        {
+            "filename": "trident7.zip",
+            "size": "1 GB",
+            "link": "https://mega.nz/file/U4kQFbDC#SVXA16C28vTX24fO947G2FpeZP2MxEw44KODgY5Kn1g",
+            "platform": "mega",
+            "notes": "by aartzz"
+        }
+    ]
+}
