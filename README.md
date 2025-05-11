@@ -11,7 +11,7 @@
 </h2>
 
 > [!NOTE]
-> If you find any archives linked to the Trident server, [create an issue](https://github.com/aartzz/tr/issues).
+> If you find any files, videos, screenshots linked to the Trident server, [create an issue](https://github.com/aartzz/tr/issues).
 
 ## Contents of the archive
 * Trident IV
